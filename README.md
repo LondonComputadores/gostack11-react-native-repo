@@ -15,3 +15,11 @@ $ npm -v
 $ yarn -version
 1.22.5
 - Use your VSCode Integrated Git Bash Terminal only as git/github cli, for status, commit and push for example.
+- To iniciate a new project following the recommended way on this link below: 
+https://github.com/react-native-community/cli#using-npx-recommended
+$ npx react-native init <NameOfTheApp>
+- Change <NameOfTheApp> with something like MyApp or mobile (CamelCase or lowercase)
+- To run the application:
+$ react-native run-ios
+or
+$ react-native run-android
